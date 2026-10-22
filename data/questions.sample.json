@@ -1,0 +1,41 @@
+{
+  "title": "【サンプル試験】情報科学・Web技術の基礎 直前マスター",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "category": "ネットワーク",
+      "question": "Web通信において、クライアントとサーバー間の暗号化通信（HTTPS）を実現するために使用されるプロトコルはどれか？",
+      "options": ["TLS/SSL", "FTP", "DNS", "SNMP"],
+      "answer": "TLS/SSL",
+      "model_explanation": "HTTPSはHTTP通信をTLS (Transport Layer Security) または前身のSSLで暗号化・認証したプロトコルです。ポート番号は通常443を使用します。FTPはファイル転送、DNSは名前解決、SNMPはネットワーク機器監視です。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "category": "データベース",
+      "question": "リレーショナルデータベースにおいて、テーブル内のレコードを一意に識別するための列または列の組を何と呼ぶか？",
+      "options": ["主キー（Primary Key）", "外部キー（Foreign Key）", "インデックス（Index）", "ビュー（View）"],
+      "answer": "主キー（Primary Key）",
+      "model_explanation": "テーブル内の各行を一意に特定する列を「主キー」と呼びます。重複値やNULLは許可されません。外部キーは別テーブルの主キーを参照するもの、インデックスは検索高速化の索引、ビューは仮想テーブルです。"
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "category": "Webアーキテクチャ",
+      "question": "WebAPIの設計モデルの1つで、URIでリソースを指定し、HTTPメソッド（GET/POST/PUT/DELETE等）で操作を行うアーキテクチャスタイルを何というか？（アルファベット4文字）",
+      "answer": "REST",
+      "acceptable_answers": ["rest", "RESTful", "レスト"],
+      "model_explanation": "Representational State Transferの略。ステートレス、リソース指向、統一インターフェース（HTTPメソッド）を特徴とするWebアーキテクチャスタイルです。"
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "category": "コンピュータシステム",
+      "question": "CPUと主記憶（メモリ）の間にある速度差を埋めるために設けられる、超高速かつ小容量の記憶領域をカタカナで何というか？",
+      "answer": "キャッシュメモリ",
+      "acceptable_answers": ["キャッシュ", "キャッシュメモリー", "cache"],
+      "model_explanation": "SRAMを用いて構成されることが多く、主記憶（DRAM）よりも高速にCPUからアクセスできる一時記憶領域です。"
+    }
+  ]
+}
